@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="root">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,18 +11,19 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Font-awesome -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <!-- SASS -->
+    <!-- CSS/SASS -->
     <link href="css/estilos.css" rel="stylesheet">
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
   </head>
 
   <body>
-    <h1>Hola mundo!</h1>
+    <h1>A empezar!</h1>
 
+    <div ng-controller="index">{{message}}</div>
 
-
-
-
-
+    
+    
 
 
 
@@ -43,5 +44,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- operaciones -->
     <script src="js/operaciones.js"></script>
+    <!-- modules -->
+    <script src="js/modules/root.js"></script>
   </body>
 </html>
